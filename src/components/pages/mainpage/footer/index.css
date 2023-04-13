@@ -1,0 +1,22 @@
+.writeMeHeader{
+    margin-top: 10%;
+    font-size: 3vw;
+    color: chocolate;
+}
+.writeMe{
+    display: inline-block;
+    border: 1px solid chocolate;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 1.5vw;
+    cursor: pointer;
+    margin-top: 3vh;
+    transition: all 2s;
+}
+.writeMe:hover{
+    font-size: 2.5vw;
+    padding: 15px;
+    background-color: green;
+    border: none;
+    color: #fff;
+}

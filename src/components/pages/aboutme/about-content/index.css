@@ -1,0 +1,18 @@
+.aboutContentImg{
+    background-image: url(./../../../images/about-content.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 32.5vw;
+    transition: width 2s;
+}
+.aboutPicText{
+    font-size: 3vw;
+    margin-bottom: 5%;
+    color: chocolate;
+    border: 1px dashed chocolate;
+    border-radius: 10px;
+    padding: 1vw;
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.navLink{
+    font-size: 2vh;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 1.5vw;
+    color: rgba(0,0, 0, .6);
+}
+.navLink:hover {
+    color: rgba(0,0, 0, 1);
+}
+/* .myWorks{
+    color: rgba(0,0, 0, 1);
+    text-decoration: underline;
+} */
+
+.headerEmailSection{
+    border-radius: 100px;
+    border: 1px solid rgba(0,0, 0,1);
+}
+
+.myEmail{
+    background-color: rgba(0,0, 0, 1);
+    color: rgba(255, 255,255, 1);
+    padding: 5px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transition: all 1s;
+}
+
+
+.emailMe{
+    color: rgba(0,0, 0, 1);
+    padding: 5px;
+}
+
+.myName{
+    font-size: 2.5vh;
+    display: flex;
+}
+.myNaving{
+    display: flex;
+    gap: 50vw;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}

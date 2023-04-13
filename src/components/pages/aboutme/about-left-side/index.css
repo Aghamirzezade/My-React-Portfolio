@@ -1,0 +1,9 @@
+.leftSideImg{
+    background-image: url(./../../../images/about-left-side.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 32.5vw;
+    transition: width 2s;
+}

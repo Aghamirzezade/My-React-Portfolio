@@ -1,0 +1,50 @@
+.myWorkCards{
+    display: flex;
+}
+.myWorkAmount{
+    margin-top: 15%;
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+.myWorkCard{
+    width: 40vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 6.8vw;
+    transition: all .75s;
+}
+.myWorkCard:hover{
+    width: 42vw;
+    height: 85vh;
+    border-radius: 30px;
+}
+.myWorkCardHeader{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.myWorkCardFooter{
+    margin-left: 10%;
+    margin-bottom: 2%;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+.myWorkCardHeader:hover , .myWorkCardFooter:hover{
+    background-color: #fff;
+    color: #666;
+    border-color: #666;
+}
+.myWorkInsta{
+    background-image: url(https://cdn.siasat.com/wp-content/uploads/2022/07/Instagram_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
